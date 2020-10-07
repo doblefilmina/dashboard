@@ -1,8 +1,10 @@
-body {
+/* ///////////////////     CSS MERN-GESTION-HERRAMIENTAS ///////////////////////////////////////// */
+
+.gestion-herramientas {
   background-color: gray;
 }
 
-.encabezado {
+.gestion-herramientas .encabezado {
   display: flex;
   flex-direction: row;
   width: 100vw;
@@ -10,62 +12,62 @@ body {
   justify-content: space-around;
 }
 
-.encabezado p {
+.gestion-herramientas .encabezado p {
   cursor: pointer;
   padding: 1rem;
 }
 
-.encabezado p:hover {
+.gestion-herramientas .encabezado p:hover {
   border-bottom: solid 1px black;
 }
 
-.button {
+.gestion-herramientas .button {
   border: solid 1px black;
   cursor: pointer;
   width: 100%;
   margin: 1rem 1rem 2rem 1 rem;
 }
 
-.Table {
+.gestion-herramientas .Table {
   display: grid;
   grid-template-columns: 20vw 40vw 40vw ;
   column-gap: 1fr;
 }
 
-.column-1 {
+.gestion-herramientas .column-1 {
   margin: 0.5rem;
   background-color: white;
 }
 
-.column-2 {
+.gestion-herramientas .column-2 {
   margin: 0.5rem;
   background-color: white;
 }
 
-.column-3 {
+.gestion-herramientas .column-3 {
   margin: 0.5rem;
   background-color: white;
 }
 
-.list-item {
+.gestion-herramientas .list-item {
   cursor: pointer;
 }
 
-.AddSomething {
+.gestion-herramientas .AddSomething {
   display: flex;
   flex-direction: column;
   max-width: 300px;
   margin: 0 auto;
 }
 
-.AddSomething textarea {
+.gestion-herramientas .AddSomething textarea {
   padding-bottom: 40px;
   margin-bottom: 30px;
   width: 100%;
 }
 
 
-.AddSomething button {
+.gestion-herramientas .AddSomething button {
   padding: 10px;
   background-color: green;
   font-size: 1rem;
@@ -77,20 +79,20 @@ body {
   align-self: center;
 }
 
-.AddSomething input {
+.gestion-herramientas .AddSomething input {
   width: 100%;
   margin-bottom: 10px;
 }
 
-.AddSomething h2 {
+.gestion-herramientas .AddSomething h2 {
   font-size: 1rem;
   margin-bottom: 2px;
 }
 
-.AddSomething button,
-.AddSomething textarea,
-.AddSomething input,
-.AddSomething h2 {
+.gestion-herramientas .AddSomething button,
+.gestion-herramientas .AddSomething textarea,
+.gestion-herramientas .AddSomething input,
+.gestion-herramientas .AddSomething h2 {
   display: block;
 }
 
