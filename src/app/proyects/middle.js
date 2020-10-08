@@ -29,6 +29,13 @@ const Dashboard = ({setScreen}) => {
             DeporteXtremo
           </div>
         </li>
+        <li>
+          <div onClick={() => {
+            setScreen('cv')
+            }}>
+            CV (bootstrap, google fonts, animaciones con keyframes en css)
+          </div>
+        </li>
       </ul>
     </div>
   );
