@@ -18,9 +18,15 @@ const Dashboard = ({setScreen}) => {
         <li>
           <div onClick={() => {
             setScreen('hola-mundo')
-            console.log(screen)
             }}>
             Hola Mundo
+          </div>
+        </li>
+        <li>
+          <div onClick={() => {
+            setScreen('dx')
+            }}>
+            DeporteXtremo
           </div>
         </li>
       </ul>
