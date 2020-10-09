@@ -4,6 +4,7 @@ import App_gestionHerramientas from './proyects/gestion-herramientas/frontpage';
 import HolaMundo from './proyects/hola-mundo/components/unique';
 import Dx from './proyects/DX/dx_frontpage';
 import Cv from './proyects/CV/cv';
+import Acertijo from './proyects/acertijo/acertijo';
 
 
 
@@ -18,6 +19,7 @@ const App = () => {
       {screen==='hola-mundo' && <HolaMundo />}
       {screen==='dx' && <Dx />}
       {screen==='cv' && <Cv />}
+      {screen==='acertijo' && <Acertijo />}
      
     </div>
   );

@@ -36,6 +36,13 @@ const Dashboard = ({setScreen}) => {
             CV (bootstrap, google fonts, animaciones con keyframes en css)
           </div>
         </li>
+        <li>
+          <div onClick={() => {
+            setScreen('acertijo')
+            }}>
+            Acertijo
+          </div>
+        </li>
       </ul>
     </div>
   );
