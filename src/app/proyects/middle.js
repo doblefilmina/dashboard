@@ -133,7 +133,7 @@ const Dashboard = ({setScreen}) => {
             <p className="tarjeta-texto">Base de datos: <span className="negrita"> #MongoDB</span></p>
           </div> 
           <a href="#" className="boton" onClick={() => {
-              setScreen('gestion-herramientas')
+              setScreen('dashboard')
               }}>Visitar Página!</a>
         </div>
         
