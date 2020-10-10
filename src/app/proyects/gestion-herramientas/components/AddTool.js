@@ -36,23 +36,23 @@ const AddTool = ({currentTool, screenEdit}) => {
     <div className="AddSomething">
       <form onSubmit={saveTool}>
         <h2>Herramienta</h2>
-        <input value={screenEdit ? currentTool.herramienta : ''} onChange={event => setHerramienta(event.target.value)}/>
+        <input onChange={event => setHerramienta(event.target.value)}/>
         <h2>Marca</h2>
-        <input value={screenEdit ? currentTool.marca : ''} onChange={event => setMarca(event.target.value)}/>
+        <input onChange={event => setMarca(event.target.value)}/>
         <h2>Modelo</h2>
-        <input value={screenEdit ? currentTool.modelo : ''} onChange={event => setModelo(event.target.value)}/>
+        <input onChange={event => setModelo(event.target.value)}/>
         <h2>Proveedor</h2>
-        <input value={screenEdit ? currentTool.proveedor : ''} onChange={event => setProveedor(event.target.value)}/>
+        <input onChange={event => setProveedor(event.target.value)}/>
         <h2>Fecha de compra</h2>
-        <input value={screenEdit ? currentTool.fecha : ''} onChange={event => setFecha(event.target.value)}/>
+        <input onChange={event => setFecha(event.target.value)}/>
         <h2>Precio compra</h2>
-        <input value={screenEdit ? currentTool.precio : ''} onChange={event => setPrecio(event.target.value)}/>
+        <input onChange={event => setPrecio(event.target.value)}/>
         <h2>Capataz</h2>
-        <input value={screenEdit ? currentTool.CapatazO : ''} onChange={event => setCapatazO(event.target.value)}/>
+        <input onChange={event => setCapatazO(event.target.value)}/>
         <h2>Obra</h2>
-        <input value={screenEdit ? currentTool.obra : ''} onChange={event => setObra(event.target.value)}/>
+        <input onChange={event => setObra(event.target.value)}/>
         <h2>Comentarios</h2>
-        <textarea value={screenEdit ? currentTool.comentarios : ''} onChange={event => setComentarios(event.target.value)}></textarea>
+        <textarea onChange={event => setComentarios(event.target.value)}></textarea>
         <button type="submit" >Guardar Herramienta</button>
       </form>
       </div>
