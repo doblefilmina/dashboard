@@ -1,3 +1,27 @@
+/* ///////////////////     CSS DASHBOARD ///////////////////////////////////////// */
+.dashboard p {
+  font-size: 0.8rem;
+}
+
+.dashboard .contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.dashboard .tarjeta {
+  width: 20%;
+  border: 1px solid;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+.dashboard .tarjeta img {
+  box-shadow: rgb(128, 128, 128);
+  width: 90%;
+}
+
 /* ///////////////////     CSS DEPORTE EXTREMO ///////////////////////////////////////// */
 
 
