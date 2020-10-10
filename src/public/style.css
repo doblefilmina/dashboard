@@ -1,9 +1,80 @@
 /* ///////////////////     CSS DASHBOARD ///////////////////////////////////////// */
-.dashboard p {
-  font-size: 0.8rem;
+.dashboard {
+  background-color: lightgray;
+  padding: 0.5rem;
+  width: 100vw;
 }
 
-.dashboard .contenedor {
+.dashboard .contenedor-presentacion p {
+  font-size: 1rem;
+}
+
+.dashboard .contenedor-presentacion {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 0.5rem 0 1rem 0;
+}
+
+
+.dashboard .presentacion-media {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 1rem;
+ 
+}
+
+.dashboard .contenedor-presentacion img {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.dashboard .presentacion-media h4 {
+  font-size: 2.3rem;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+.dashboard .presentacion-media h5 {
+  display: flex;
+  border-top: 1px solid;
+  justify-content: space-around;
+  width: 50%;
+  margin: auto;
+  padding-top: 0.2rem;
+  font-size: 2rem;
+ 
+}
+
+.dashboard .presentacion-media a {
+  color: black;
+}
+
+
+
+.dashboard .presentacion-texto {
+  text-align: center;
+  margin: auto;
+  width: 80%;
+ 
+}
+
+.dashboard .presentacion-texto h5 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.8rem;
+  border-bottom: 1px solid;
+
+}
+
+
+.dashboard .presentacion-texto p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.3rem;
+}
+
+.dashboard .contenedor-tarjetas {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -11,16 +82,63 @@
 }
 
 .dashboard .tarjeta {
-  width: 20%;
-  border: 1px solid;
+  width: 300px;
+  height: 400px;
   padding: 1rem;
   margin: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+}
+
+.dashboard .tarjeta h6 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+ 
+  
 }
 
 .dashboard .tarjeta img {
-  box-shadow: rgb(128, 128, 128);
-  width: 90%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  width: 100%;
+  margin-bottom: 0.5rem;
+  
 }
+
+.dashboard .tarjeta-cuerpo {
+  width: 100%;
+}
+
+.dashboard .tarjeta p {
+  font-size: 1rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-bottom: 0.2rem;
+}
+
+.dashboard .boton {
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  padding: 0.6rem;
+  cursor: pointer;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.dashboard .negrita {
+  font-weight: bold;
+}
+
+
+
+
 
 /* ///////////////////     CSS DEPORTE EXTREMO ///////////////////////////////////////// */
 
