@@ -6,6 +6,7 @@ import cv from '../img/middle/cv.png';
 import codigo from '../img/middle/codigo.jpg';
 import gestion from '../img/middle/gestion.png';
 import avatar from '../img/middle/avatar_FB_b_circ.png';
+import portfolio from '../img/middle/portfolio.png';
 
 
 
@@ -27,7 +28,7 @@ const Dashboard = ({setScreen}) => {
         <h5>Ingeniero Civil que se convirtió en Desarrollador Full Stack</h5>
 
           <p>Esta página pretende mostrar los proyectos que desarrollé hasta el momento. Muestra un poco la evolución desde mis inicios en Febrero de 2020. Creo que si se navega un poco, se puede conocer mis conocimientos, habilidades y también mi personalidad. </p>
-          <p>Hablando de código, ésta es una single-page app creada con React. El Back-End está desarrollado con NodeJS y la librería Express. Se conecta con una base de datos en MongoDB.</p>
+          <p>Si te gusta mi trabajo, no dudes en contactarte conmigo a través de Linkedin</p>
         </div>
       </div>
       
@@ -36,7 +37,7 @@ const Dashboard = ({setScreen}) => {
 
         <div className="tarjeta">
           <h6>Hola Mundo</h6>
-          <img src={holaMundo}  alt="pagina_hola-mundo"/>
+          <img src={holaMundo} className="img-fluid"  alt="pagina_hola-mundo"/>
           <div className="tarjeta-cuerpo">
             <p className="tarjeta-texto">
               El famoso "Hola Mundo!"
@@ -46,14 +47,14 @@ const Dashboard = ({setScreen}) => {
             <p className="tarjeta-texto"><span className="negrita"></span> </p>
             <p className="tarjeta-texto"><span className="negrita"></span> </p>
           </div> 
-          <a href="#" className="boton" onClick={() => {
+          <button href="#" className="boton" onClick={() => {
               setScreen('hola-mundo')
-              }}>Visitar Página!</a>
+              }}>Visitar Página!</button>
         </div>
 
         <div className="tarjeta">
           <h6>DeportEXtremo</h6>
-          <img src={deporteX} alt="pagina_deportEX"/>
+          <img src={deporteX} className="img-fluid" alt="pagina_deportEX"/>
           <div className="tarjeta-cuerpo">
             <p className="tarjeta-texto">
               Home de Noticias con Bootstrap
@@ -87,7 +88,7 @@ const Dashboard = ({setScreen}) => {
 
         <div className="tarjeta">
           <h6>Acertijo</h6>
-          <img src={codigo} alt="pagina_acertijo"/>
+          <img src={codigo} className="img-fluid" alt="pagina_acertijo"/>
           <div className="tarjeta-cuerpo">
             <p className="tarjeta-texto">
               Resolución acertijo por consola
@@ -104,10 +105,10 @@ const Dashboard = ({setScreen}) => {
 
         <div className="tarjeta">
           <h6>Gestion de Herramientas</h6>
-          <img src={gestion} alt="pagina_acertijo"/>
+          <img src={gestion} className="img-fluid" alt="pagina_acertijo"/>
           <div className="tarjeta-cuerpo">
             <p className="tarjeta-texto">
-              App para Gestionar Herramientas
+              App para Gestionar Herramientas (en construcción)
             </p>
             <p className="tarjeta-texto">Lenguajes: <span className="negrita">#HTML5 #JS</span></p>
             <p className="tarjeta-texto">Bibliotecas: <span className="negrita">#React #express #webpack</span></p>
@@ -121,7 +122,7 @@ const Dashboard = ({setScreen}) => {
 
         <div className="tarjeta">
           <h6>Ésta Página</h6>
-          <img src={gestion} className="card-img-top" alt="pagina_acertijo"/>
+          <img src={portfolio} className="card-img-top" alt="pagina_acertijo"/>
           <div className="tarjeta-cuerpo">
             <p className="tarjeta-texto">
               Portfolio de proyectos
@@ -138,44 +139,6 @@ const Dashboard = ({setScreen}) => {
         
       </div>
       
-      
-      <ul>
-        <li>
-          <div onClick={() => {
-            setScreen('gestion-herramientas')
-            }}>
-            Gestion de herramientas
-          </div>
-        </li>
-        <li>
-          <div onClick={() => {
-            setScreen('hola-mundo')
-            }}>
-            Hola Mundo
-          </div>
-        </li>
-        <li>
-          <div onClick={() => {
-            setScreen('dx')
-            }}>
-            DeporteXtremo
-          </div>
-        </li>
-        <li>
-          <div onClick={() => {
-            setScreen('cv')
-            }}>
-            CV (bootstrap, google fonts, animaciones con keyframes en css)
-          </div>
-        </li>
-        <li>
-          <div onClick={() => {
-            setScreen('acertijo')
-            }}>
-            Acertijo
-          </div>
-        </li>
-      </ul>
     </div>
   );
 }

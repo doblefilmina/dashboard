@@ -222,7 +222,7 @@ const Cv = () => {
           {/*<!--INICIO TÍTULO-->*/}
           <section id="contacto-titulo" className="row">
             <div className="col-sm-12">
-                <p id="TITULO" className="h1 text-center m-1">Contacto</p>
+                <p id="TITULO" className="h1 text-center m-1">Contacto [C'est n'est pas un formulaire]</p>
             </div>
           </section>
           {/*<!--FIN TÍTULO-->*/}

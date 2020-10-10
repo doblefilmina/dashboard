@@ -14,6 +14,9 @@ const App = () => {
 
   return (
     <div className="App">
+      {screen!='dashboard' && <button className="btn-volver"onClick={() => {
+              setScreen('dashboard')
+              }} >Volver a Portfolio</button>}
       {screen==='dashboard' && <Dashboard setScreen={setScreen} />}
       {screen==='gestion-herramientas' && <App_gestionHerramientas/>}
       {screen==='hola-mundo' && <HolaMundo />}
