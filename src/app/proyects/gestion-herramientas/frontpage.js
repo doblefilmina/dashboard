@@ -5,18 +5,7 @@ import BuildingSites from './components/buildingSites';
 import Transports from './components/transports';
 
 
-const initTools = () => {
-   
-  fetch('/api/tools', { method: 'GET' } )
-    .then( res => res.json() )
-    .then( tools => {
-      console.log('casi casi casi casi')
-      console.log(tools)
-      return tools
-    })
-    const tools = tools => tools
-    console.log(tools)
-}
+
 
 
 const App_gestionHerramientas = () => {
@@ -39,7 +28,6 @@ const App_gestionHerramientas = () => {
       .then( res => res.json() )
       .then ( tools => {
                 setTools(tools)
-                console.log(tools)
                 setScreen('tools')
       })
   }  
@@ -69,7 +57,6 @@ const App_gestionHerramientas = () => {
       .then( res => res.json() )
       .then ( buildingSites => {
                 setBuildingSites(buildingSites)
-                console.log(buildingSites)
                 setScreen('building')
               })
     }
@@ -98,7 +85,6 @@ const App_gestionHerramientas = () => {
       .then( res => res.json() )
       .then ( transports => {
                 setTransports(transports)
-                console.log(transports)
                 setScreen('transport')
               })
     }

@@ -7,6 +7,7 @@ import codigo from '../img/middle/codigo.jpg';
 import gestion from '../img/middle/gestion.png';
 import avatar from '../img/middle/avatar_FB_b_circ.png';
 import portfolio from '../img/middle/portfolio.png';
+import mosca from '../img/middle/mosca.jpg';
 
 
 
@@ -17,7 +18,7 @@ const Dashboard = ({setScreen}) => {
 
       <div className="contenedor-presentacion">
         <div className="presentacion-media">
-          <img src={avatar} className="card-img-top" alt="pagina_hola-mundo"/>
+          <img src={avatar} className="img-fluid" alt="Federico Brusa"/>
           <h4>Federico Brusa</h4>
           <h5>
             <a href="https://github.com/doblefilmina" target="_blank"><i className="fab fa-github"></i></a>
@@ -27,7 +28,7 @@ const Dashboard = ({setScreen}) => {
         <div className="presentacion-texto">
         <h5>Ingeniero Civil que se convirtió en Desarrollador Full Stack</h5>
 
-          <p>Esta página pretende mostrar los proyectos que desarrollé hasta el momento. Muestra un poco la evolución desde mis inicios en Febrero de 2020. Creo que si se navega un poco, se puede conocer mis conocimientos, habilidades y también mi personalidad. </p>
+          <p>Esta página pretende mostrar los proyectos que desarrollé hasta el momento. Muestra la evolución desde mis inicios en Febrero de 2020. A través de la navegación de esta página podrás conocer mis habilidades. </p>
           <p>Si te gusta mi trabajo, no dudes en contactarte conmigo a través de Linkedin</p>
         </div>
       </div>
@@ -37,7 +38,7 @@ const Dashboard = ({setScreen}) => {
 
         <div className="tarjeta">
           <h6>Hola Mundo</h6>
-          <img src={holaMundo} className="img-fluid"  alt="pagina_hola-mundo"/>
+          <img src={holaMundo} className="img-fluid w-100"  alt="pagina_hola-mundo"/>
           <div className="tarjeta-cuerpo">
             <p className="tarjeta-texto">
               El famoso "Hola Mundo!"
@@ -49,12 +50,12 @@ const Dashboard = ({setScreen}) => {
           </div> 
           <button href="#" className="boton" onClick={() => {
               setScreen('hola-mundo')
-              }}>Visitar Página!</button>
+              }}>Ver Proyecto!</button>
         </div>
 
         <div className="tarjeta">
           <h6>DeportEXtremo</h6>
-          <img src={deporteX} className="img-fluid" alt="pagina_deportEX"/>
+          <img src={deporteX} className="img-fluid w-100" alt="pagina_deportEX"/>
           <div className="tarjeta-cuerpo">
             <p className="tarjeta-texto">
               Home de Noticias con Bootstrap
@@ -66,12 +67,12 @@ const Dashboard = ({setScreen}) => {
           </div> 
           <a href="#" className="boton" onClick={() => {
               setScreen('dx')
-              }}>Visitar Página!</a>
+              }}>Ver Proyecto!</a>
         </div>
 
         <div className="tarjeta">
           <h6>Portfolio fantasía</h6>
-          <img src={cv} className="img-fluid" alt="pagina_cv"/>
+          <img src={cv} className="img-fluid w-100" alt="pagina_cv"/>
           <div className="tarjeta-cuerpo">
             <p className="tarjeta-texto">
               El CV que me gustaría presentar
@@ -83,12 +84,12 @@ const Dashboard = ({setScreen}) => {
           </div> 
           <a href="#" className="boton" onClick={() => {
               setScreen('cv')
-              }}>Visitar Página!</a>
+              }}>Ver Proyecto!</a>
         </div>
 
         <div className="tarjeta">
           <h6>Acertijo</h6>
-          <img src={codigo} className="img-fluid" alt="pagina_acertijo"/>
+          <img src={codigo} className="img-fluid w-100" alt="pagina_acertijo"/>
           <div className="tarjeta-cuerpo">
             <p className="tarjeta-texto">
               Resolución acertijo por consola
@@ -100,12 +101,12 @@ const Dashboard = ({setScreen}) => {
           </div> 
           <a href="#" className="boton" onClick={() => {
               setScreen('acertijo')
-              }}>Visitar Página!</a>
+              }}>Ver Proyecto!</a>
         </div>
 
         <div className="tarjeta">
           <h6>Gestion de Herramientas</h6>
-          <img src={gestion} className="img-fluid" alt="pagina_acertijo"/>
+          <img src={gestion} className="img-fluid w-100" alt="pagina_acertijo"/>
           <div className="tarjeta-cuerpo">
             <p className="tarjeta-texto">
               App para Gestionar Herramientas (en construcción)
@@ -117,12 +118,12 @@ const Dashboard = ({setScreen}) => {
           </div> 
           <a href="#" className="boton" onClick={() => {
               setScreen('gestion-herramientas')
-              }}>Visitar Página!</a>
+              }}>Ver Proyecto!</a>
         </div>
 
         <div className="tarjeta">
           <h6>Ésta Página</h6>
-          <img src={portfolio} className="card-img-top" alt="pagina_acertijo"/>
+          <img src={portfolio} className="img-fluid w-100" alt="pagina_acertijo"/>
           <div className="tarjeta-cuerpo">
             <p className="tarjeta-texto">
               Portfolio de proyectos
@@ -134,7 +135,20 @@ const Dashboard = ({setScreen}) => {
           </div> 
           <a href="#" className="boton" onClick={() => {
               setScreen('dashboard')
-              }}>Visitar Página!</a>
+              }}>Ver Proyecto!</a>
+        </div>
+
+        <div className="tarjeta">
+          <h6>Mosca Pariendo parásitos</h6>
+          <img src={mosca} className="img-fluid w-100" alt="mosca_pariendo"/>
+          <div className="tarjeta-cuerpo">
+            <p className="tarjeta-texto">
+              Video propio de Youtube muy asqueroso
+            </p>
+            <p className="tarjeta-texto">Si llegaste hasta acá, y no sos una persona impresionable, te dejo un video para distender un poco. Va llegando al millón de reproducciones!</p>
+            
+          </div> 
+          <a href="https://youtu.be/6IsoIAwyAAY" target="_blank" className="boton">Ver Video!</a>
         </div>
         
       </div>

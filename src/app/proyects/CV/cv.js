@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, Component} from 'react';
 import FbCircSb from '../../img/cv/avatar_FB_sb_circ.png';
 import FbCircB from '../../img/cv/avatar_FB_b_circ.png';
 import ML from '../../img/cv/logo__large_plus.png';
@@ -7,6 +7,8 @@ import despegar from '../../img/cv/despegar.png';
 import Galperin from '../../img/cv/avatar_galperinv02.png';
 import Migoya from '../../img/cv/avatar_migoya.png';
 import Marley from '../../img/cv/avatar_marley.png';
+
+
 
 
 
@@ -67,7 +69,7 @@ const Cv = () => {
                 <div className="spinner-border" role="status" id="spinner">
                   <span className="sr-only">Loading...</span>
                 </div>
-              </h2> 
+              </h2>
               <p className="mt-3"> De formación Ingeniero Civil, motivado por la curiosidad y el analfabetismo digital en el rubro de la construcción decidí reorientar mi carrera hacia la creación de productos digitales. </p>
             </div>
           </section>

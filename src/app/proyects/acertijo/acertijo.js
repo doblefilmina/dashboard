@@ -277,8 +277,6 @@ console.log(ultima_solucion)
     setScreen('paso01')
   }
 
-  resolucion() 
-
   return (
   <div className="acertijo">
     <div className="container-fluid">
@@ -287,7 +285,10 @@ console.log(ultima_solucion)
         <img src={codigo} alt="codigo" className="img-fluid"/>
       </section>
       <section className="row">
-        <button type="button" id="resolucion01" className="btn btn-primary btn-lg offset-sm-1 col-sm-4 m-5" onClick={aparece_paso01}>Resolucion 1</button>
+        <button type="button" id="resolucion01" className="btn btn-primary btn-lg offset-sm-1 col-sm-4 m-5" onClick={()=>{
+            aparece_paso01()
+            resolucion()
+            }}>Resolucion 1</button>
         <button type="button" className="btn btn-primary btn-lg offset-sm-1 col-sm-4 m-5">Resolucion 2</button>
       </section>
 
