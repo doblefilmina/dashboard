@@ -20,8 +20,8 @@ const Dashboard = ({setScreen}) => {
           <img src={avatar} className="card-img-top" alt="pagina_hola-mundo"/>
           <h4>Federico Brusa</h4>
           <h5>
-            <a href="https://github.com/doblefilmina" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://linkedin.com/in/brusafederico" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/doblefilmina" target="_blank"><i className="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/brusafederico" target="_blank"><i className="fab fa-linkedin"></i></a>
           </h5>
         </div>
         <div className="presentacion-texto">
