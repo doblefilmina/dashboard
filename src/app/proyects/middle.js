@@ -39,7 +39,9 @@ const Dashboard = ({setScreen}) => {
 
         <div className="tarjeta">
           <h6>Hola Mundo</h6>
-          <img src={holaMundo} className="img-fluid w-100"  alt="pagina_hola-mundo"/>
+          <div className="imagen">
+            <img src={holaMundo} className="img-fluid"  alt="pagina_hola-mundo"/>
+          </div>
           <div className="tarjeta-cuerpo">
             <p className="tarjeta-texto">
               El famoso "Hola Mundo!"
