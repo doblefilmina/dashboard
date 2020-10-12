@@ -138,7 +138,7 @@ const Dashboard = ({setScreen}) => {
             <img src={portfolio} className="img-fluid" alt="pagina_acertijo"/>
           </div>
           <div className="tarjeta-cuerpo">
-            <p className="tarjeta-texto">
+            <p className="tarjeta-texto epigrafe">
               Portfolio de proyectos
             </p>
             <p className="tarjeta-texto">Lenguajes: <span className="negrita"> #HTML5 #CSS #JS</span></p>

@@ -102,7 +102,7 @@
 
 .dashboard .tarjeta {
   width: 300px;
-  height: 400px;
+  height: 450px;
   padding: 1rem;
   margin: 2rem;
   /*box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);*/
@@ -143,6 +143,10 @@
   font-size: 1rem;
   font-family: 'Source Sans Pro', sans-serif;
   margin-bottom: 0.2rem;
+}
+
+.dashboard .tarjeta .epigrafe {
+  text-decoration: underline;
 }
 
 .dashboard .boton {
