@@ -58,7 +58,9 @@ const Dashboard = ({setScreen}) => {
 
         <div className="tarjeta">
           <h6>DeportEXtremo</h6>
-          <img src={deporteX} className="img-fluid w-100" alt="pagina_deportEX"/>
+          <div className="imagen">
+            <img src={deporteX} className="img-fluid" alt="pagina_deportEX"/>
+          </div>
           <div className="tarjeta-cuerpo">
             <p className="tarjeta-texto">
               Home de Noticias con Bootstrap
@@ -75,7 +77,9 @@ const Dashboard = ({setScreen}) => {
 
         <div className="tarjeta">
           <h6>Portfolio fantasía</h6>
-          <img src={cv} className="img-fluid w-100" alt="pagina_cv"/>
+          <div className="imagen">
+            <img src={cv} className="img-fluid" alt="pagina_cv"/>
+          </div>
           <div className="tarjeta-cuerpo">
             <p className="tarjeta-texto">
               El CV que me gustaría presentar
@@ -92,7 +96,9 @@ const Dashboard = ({setScreen}) => {
 
         <div className="tarjeta">
           <h6>Acertijo</h6>
-          <img src={codigo} className="img-fluid w-100" alt="pagina_acertijo"/>
+          <div className="imagen">
+            <img src={codigo} className="img-fluid" alt="pagina_acertijo"/>
+          </div>
           <div className="tarjeta-cuerpo">
             <p className="tarjeta-texto">
               Resolución acertijo por consola
@@ -109,7 +115,9 @@ const Dashboard = ({setScreen}) => {
 
         <div className="tarjeta">
           <h6>Gestion de Herramientas</h6>
-          <img src={gestion} className="img-fluid w-100" alt="pagina_acertijo"/>
+          <div className="imagen">
+            <img src={gestion} className="img-fluid" alt="pagina_acertijo"/>
+          </div>
           <div className="tarjeta-cuerpo">
             <p className="tarjeta-texto">
               App para Gestionar Herramientas (en construcción)
@@ -126,7 +134,9 @@ const Dashboard = ({setScreen}) => {
 
         <div className="tarjeta">
           <h6>Ésta Página</h6>
-          <img src={portfolio} className="img-fluid w-100" alt="pagina_acertijo"/>
+          <div className="imagen">
+            <img src={portfolio} className="img-fluid" alt="pagina_acertijo"/>
+          </div>
           <div className="tarjeta-cuerpo">
             <p className="tarjeta-texto">
               Portfolio de proyectos
@@ -143,7 +153,9 @@ const Dashboard = ({setScreen}) => {
 
         <div className="tarjeta">
           <h6>Mosca Pariendo parásitos</h6>
-          <img src={mosca} className="img-fluid w-100" alt="mosca_pariendo"/>
+          <div className="imagen">
+            <img src={mosca} className="img-fluid" alt="mosca_pariendo"/>
+          </div>
           <div className="tarjeta-cuerpo">
             <p className="tarjeta-texto">
               Video propio de Youtube muy asqueroso
