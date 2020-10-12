@@ -58,7 +58,7 @@ const Dashboard = ({setScreen}) => {
 
         <div className="tarjeta">
           <h6>DeportEXtremo</h6>
-          <img src={firpo} className="img-fluid w-100" alt="pagina_deportEX"/>
+          <img src={deporteX} className="img-fluid w-100" alt="pagina_deportEX"/>
           <div className="tarjeta-cuerpo">
             <p className="tarjeta-texto">
               Home de Noticias con Bootstrap
