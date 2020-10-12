@@ -8,6 +8,7 @@ import gestion from '../img/middle/gestion.png';
 import avatar from '../img/middle/avatar_FB_b_circ.png';
 import portfolio from '../img/middle/portfolio.png';
 import mosca from '../img/middle/mosca.jpg';
+import firpo from '../img/dx/firpo.jpg';
 
 
 
@@ -55,7 +56,7 @@ const Dashboard = ({setScreen}) => {
 
         <div className="tarjeta">
           <h6>DeportEXtremo</h6>
-          <img src={deporteX} className="img-fluid w-100" alt="pagina_deportEX"/>
+          <img src={firpo} className="img-fluid w-100" alt="pagina_deportEX"/>
           <div className="tarjeta-cuerpo">
             <p className="tarjeta-texto">
               Home de Noticias con Bootstrap
